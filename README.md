@@ -95,6 +95,9 @@ To overcome this challenge, senior executives initiated a **data analytics trans
 - YTG (Year to Go)  
 
 ---
+## live dashboard click here
+https://app.powerbi.com/view?r=eyJrIjoiNjczYWM5MDMtMmVlOS00MTVlLWIyMmItZDRhODcxMDNhMzUzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+
 
 ## 📈 Key Outcomes
 
