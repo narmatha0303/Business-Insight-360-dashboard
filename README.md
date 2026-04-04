@@ -1,28 +1,43 @@
-# Business Insight 360 | Global Enterprise BI Suite
-**Advanced Business Intelligence & Decision Support System**
+# AtliQ Hardware Business Insight 360 
 
 ## 📌 Project Overview
-Business Insight 360 is a high-performance Power BI ecosystem developed to consolidate fragmented data into a unified "Single Source of Truth." [cite_start]This suite provides 360-degree visibility into organizational health across Finance, Sales, Marketing, Supply Chain, and Executive leadership[cite: 1, 2, 14].
+Business Insight 360 is a high-performance Power BI ecosystem developed to consolidate fragmented data into a unified "Single Source of Truth." This suite provides 360-degree visibility into organizational health across Finance, Sales, Marketing, Supply Chain, and Executive leadership.
 
 ### 🛠️ Core Analytical Engines
 I engineered five specialized views, each optimized for a specific business vertical:
 
-* [cite_start]**Finance View:** Generates dynamic P&L statements for any customer, product, or country[cite: 4, 5].
-    * **KPIs:** Net Sales ($19.37B), Gross Margin (36.41%), and Net Profit (-20.71%).
-* [cite_start]**Sales View:** Evaluates customer performance via Profitability/Growth matrices[cite: 6, 7].
-    * **Insight:** Maps Gross Margin % against Net Sales to identify high-value segments.
-* [cite_start]**Marketing View:** Analyzes product performance and market share[cite: 8, 9].
-    * **Visuals:** Waterfall charts for Net Sales & Gross Margin bifurcation.
-* [cite_start]**Supply Chain View:** Tracks operational efficiency and risk[cite: 11].
-    * **KPIs:** Forecast Accuracy (91.41%) and Net Error ($1M).
-* [cite_start]**Executive View:** A strategic C-suite dashboard consolidating top-level insights from all dimensions[cite: 13, 14].
+*## 🔍 Module-Specific Insights & Strategic Actions
 
+### 1. Finance View: Global Profitability Analysis
+* **Insight:** Captured a total **Net Sales of $19.37B** with a **Gross Margin of 36.41%**.
+* **Observation:** While Gross Sales reached $38.84B, post-invoice deductions and COGS ($12.31B) significantly impact the bottom line.
+* **Action:** Implemented dynamic P&L statements to identify specific product/country aggregations where "Other Costs" or "Freight Costs" are eroding the Gross Margin %.
+
+### 2. Sales View: Customer & Product Performance
+* **Insight:** Utilized a **Profitability/Growth Matrix** to segment the customer base
+* **Observation:** Identified high-volume products like **AQ Smash 1 ($744M NS)** maintaining healthy margins, while others show a decline in GM% variance.
+* **Action:** Established a performance toggle to compare current performance against **Last Year (LY)** and **Targets**, allowing sales teams to pivot strategies for underperforming accounts.
+
+### 3. Marketing View: Market Share & Bifurcation
+* **Insight:** Analyzed the **Net Sales & Gross Margin Bifurcation** to visualize the flow from revenue to profit.
+* **Observation:** The **APAC region** dominates with **$10.34B in Net Sales**, but the **Net Profit (-21.22%)** indicates high operational expenses ($11.06B).
+* **Action:** Recommended a review of operational spend in high-revenue regions like APAC and NA to bring Net Profit into a positive trajectory.
+
+### 4. Supply Chain View: Reliability & Risk Mitigation
+* **Insight:** Achieved a high **Forecast Accuracy of 91.41%**, significantly reducing the Net Error to $1M.
+* **Observation:** Identified specific customers (e.g., Amazon, Atliq Exclusive) with "EI" (Excess Inventory) or "OOS" (Out of Stock) risk profiles.
+* **Action:** Developed an "Absolute Error" trend tracker to help the logistics team adjust safety stock levels and minimize capital tied up in excess inventory.
+
+### 5. Executive View: C-Suite Decision Support
+* **Insight:** Consolidated high-level KPIs including **Net Profit % (-20.71%)** and **Revenue Contribution** by channel.
+* **Observation:** The "Retailer" channel remains the primary driver of revenue at **69.7%**, while "Direct" and "Distributor" channels offer room for growth.
+* **Action:** Provided a unified view of sub-region performance (ANZ, NA, LATAM, etc.) to allow executives to allocate resources based on regional risk and market share.
 ---
 
 ## 🏗️ Technical Architecture
 ### 1. Data Modeling
 * **Schema:** Implemented a robust Star Schema for optimized query performance.
-* [cite_start]**Standardization:** All financial values are standardized in **USD (Millions)** for global reporting consistency[cite: 17].
+* **Standardization:** All financial values are standardized in **USD (Millions)** for global reporting consistency.
 
 ### 2. Advanced DAX (Data Analysis Expressions)
 * **Dynamic Benchmarking:** Developed logic to toggle between **Last Year (LY)** and **Target** benchmarks.
@@ -44,8 +59,8 @@ By leveraging this suite, stakeholders can move from reactive reporting to proac
 ## 🔧 Tech Stack
 * **Tool:** Power BI Desktop
 * **Data Prep:** Power Query (ETL)
-* **Modeling:** DAX & Relational Schema
-* [cite_start]**Documentation:** Saturday, April 04, 2026 [cite: 15]
+* **Modeling:** DAX & Star Schema
+* **Documentation:** Saturday, April 04, 2026 
 
 ---
 
@@ -54,5 +69,3 @@ By leveraging this suite, stakeholders can move from reactive reporting to proac
 
 
 
----
-*Developed as a Data Analyst to bridge the gap between raw data and executive decision-making.*
