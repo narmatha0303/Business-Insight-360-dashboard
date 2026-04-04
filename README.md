@@ -96,7 +96,7 @@ To overcome this challenge, senior executives initiated a **data analytics trans
 
 ---
 ## live dashboard click here
-https://app.powerbi.com/view?r=eyJrIjoiNjczYWM5MDMtMmVlOS00MTVlLWIyMmItZDRhODcxMDNhMzUzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+<iframe title="BI360 pbi project" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTQzNzc0NmItMjFkYS00NmNkLWFmZGItM2U4MmYxN2U2YmJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
 ## 📈 Key Outcomes
