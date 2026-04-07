@@ -65,7 +65,6 @@ By leveraging this suite, stakeholders can move from reactive reporting to proac
 ---
 
 ## 📂 Repository Structure
-* `Dashboard_Files/`: Contains the <iframe title="BI360 pbi project" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTQzNzc0NmItMjFkYS00NmNkLWFmZGItM2U4MmYxN2U2YmJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9" frameborder="0" allowFullScreen="true"></iframe> source file.
-
+* `Dashboard_Files/`: https://app.powerbi.com/view?r=eyJrIjoiOTA3NjJhMTctYWUxYS00ZjM2LTljZjktNTRjYWNmNDJlMjllIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
 
 
