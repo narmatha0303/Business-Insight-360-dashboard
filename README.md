@@ -1,70 +1,53 @@
-# AtliQ Hardware Business Insight 360 
 
-## 📌 Project Overview
-Business Insight 360 is a high-performance Power BI ecosystem developed to consolidate fragmented data into a unified "Single Source of Truth." This suite provides 360-degree visibility into organizational health across Finance, Sales, Marketing, Supply Chain, and Executive leadership.
+# Business Insights 360 — AtliQ Hardware
 
-### 🛠️ Core Analytical Engines
-I engineered five specialized views, each optimized for a specific business vertical:
+A Power BI portfolio case study with five views for finance, sales, marketing, supply chain and executive reporting.
 
-*## 🔍 Module-Specific Insights & Strategic Actions
+[Open the live dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTA3NjJhMTctYWUxYS00ZjM2LTljZjktNTRjYWNmNDJlMjllIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9) · [View my portfolio](https://codebasics.io/portfolio/Narmatha-Annadurai)
 
-### 1. Finance View: Global Profitability Analysis
-* **Insight:** Captured a total **Net Sales of $19.37B** with a **Gross Margin of 36.41%**.
-* **Observation:** While Gross Sales reached $38.84B, post-invoice deductions and COGS ($12.31B) significantly impact the bottom line.
-* **Action:** Implemented dynamic P&L statements to identify specific product/country aggregations where "Other Costs" or "Freight Costs" are eroding the Gross Margin %.
+## Business question
 
-### 2. Sales View: Customer & Product Performance
-* **Insight:** Utilized a **Profitability/Growth Matrix** to segment the customer base
-* **Observation:** Identified high-volume products like **AQ Smash 1 ($744M NS)** maintaining healthy margins, while others show a decline in GM% variance.
-* **Action:** Established a performance toggle to compare current performance against **Last Year (LY)** and **Targets**, allowing sales teams to pivot strategies for underperforming accounts.
+How can teams compare sales, profitability and forecast performance using the same reporting model? I prepared a Power BI report that lets users move from company totals to products, customers and markets.
 
-### 3. Marketing View: Market Share & Bifurcation
-* **Insight:** Analyzed the **Net Sales & Gross Margin Bifurcation** to visualize the flow from revenue to profit.
-* **Observation:** The **APAC region** dominates with **$10.34B in Net Sales**, but the **Net Profit (-21.22%)** indicates high operational expenses ($11.06B).
-* **Action:** Recommended a review of operational spend in high-revenue regions like APAC and NA to bring Net Profit into a positive trajectory.
+## Report views
 
-### 4. Supply Chain View: Reliability & Risk Mitigation
-* **Insight:** Achieved a high **Forecast Accuracy of 91.41%**, significantly reducing the Net Error to $1M.
-* **Observation:** Identified specific customers (e.g., Amazon, Atliq Exclusive) with "EI" (Excess Inventory) or "OOS" (Out of Stock) risk profiles.
-* **Action:** Developed an "Absolute Error" trend tracker to help the logistics team adjust safety stock levels and minimize capital tied up in excess inventory.
+| View | What users can examine |
+| --- | --- |
+| Finance | Profit and loss, net sales, gross margin and comparisons with last year or targets |
+| Sales | Customer and product performance, sales growth and profitability |
+| Marketing | Regional and segment performance, revenue contribution and profit measures |
+| Supply chain | Forecast accuracy, forecast errors and excess-inventory or out-of-stock risk |
+| Executive | Company KPIs, channels, regions and market performance |
 
-### 5. Executive View: C-Suite Decision Support
-* **Insight:** Consolidated high-level KPIs including **Net Profit % (-20.71%)** and **Revenue Contribution** by channel.
-* **Observation:** The "Retailer" channel remains the primary driver of revenue at **69.7%**, while "Direct" and "Distributor" channels offer room for growth.
-* **Action:** Provided a unified view of sub-region performance (ANZ, NA, LATAM, etc.) to allow executives to allocate resources based on regional risk and market share.
----
+## My work
 
-## 🏗️ Technical Architecture
-### 1. Data Modeling
-* **Schema:** Implemented a robust Star Schema for optimized query performance.
-* **Standardization:** All financial values are standardized in **USD (Millions)** for global reporting consistency.
+- Prepared the data in Power Query and organised fact and dimension tables in a star schema.
+- Created DAX measures for financial reporting, benchmark comparisons and forecast analysis.
+- Built interactive filters and views for different business teams.
+- Presented findings and suggested follow-up questions.
 
-### 2. Advanced DAX (Data Analysis Expressions)
-* **Dynamic Benchmarking:** Developed logic to toggle between **Last Year (LY)** and **Target** benchmarks.
-* **Risk Profiling:** Engineered "Risk" indicators for Supply Chain (OOS - Out of Stock vs. EI - Excess Inventory).
+## Reading the results
 
-### 3. Business Logic Implementation
-* **P&L Engineering:** Modeled the full flow from **Gross Sales ($38.84B)** down to **Net Profit** post-operational expenses.
-* **Market Intelligence:** Segmented performance by region (APAC, NA, EU, LATAM).
+The documented report selection shows USD 19.37 billion in net sales, 36.41% gross margin and 91.41% forecast accuracy. These are report values for that selection, not proof that building the dashboard improved the company’s performance. Values can change with the period and filters.
 
----
+Financial figures use the units shown in the dashboard. Forecast error measures must be read in their source units; they should not automatically be described as currency.
 
-## 📈 Strategic Business Impact
-By leveraging this suite, stakeholders can move from reactive reporting to proactive strategy:
-* **Optimization:** Identified that while APAC leads in Net Sales ($10.34B), the Net Profit margin reflects significant optimization opportunities.
-* **Reliability:** High Forecast Accuracy (91.41%) minimizes capital tied up in excess inventory.
+## How to explore
 
----
+1. Open the live dashboard above.
+2. Choose a view and check the selected period and filters.
+3. Compare current results with the selected last-year or target benchmark.
+4. Investigate the customer, product or market behind a large difference.
 
-## 🔧 Tech Stack
-* **Tool:** Power BI Desktop
-* **Data Prep:** Power Query (ETL)
-* **Modeling:** DAX & Star Schema
-* **Documentation:** Saturday, April 04, 2026 
+## Files in this repository
 
----
+- `README.md` — project overview and dashboard link.
+- [Power BI course certificate](Power%20BI%20data%20analytics%20for%20ALL%20level%203.0%20.pdf).
 
-## 📂 Repository Structure
-* `Dashboard_Files/`: https://app.powerbi.com/view?r=eyJrIjoiOTA3NjJhMTctYWUxYS00ZjM2LTljZjktNTRjYWNmNDJlMjllIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+The PBIX workbook, source datasets and DAX source files are not currently included here. The live report is the available project output.
 
+## Tools
 
+Power BI · Power Query · DAX · Star schema · Business reporting
+
+**Narmatha Annadurai** — [Portfolio](https://codebasics.io/portfolio/Narmatha-Annadurai) · [LinkedIn](https://www.linkedin.com/in/narmatha-annadurai)
